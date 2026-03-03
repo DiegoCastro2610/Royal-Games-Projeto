@@ -15,7 +15,7 @@ public partial class Jogo
 
     public byte[] Imagem { get; set; } = null!;
 
-    public bool StatusJogo { get; set; }
+    public bool StatusJogo { get; set; } 
 
     public int? UsuarioId { get; set; }
 
