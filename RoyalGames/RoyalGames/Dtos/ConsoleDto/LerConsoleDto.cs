@@ -1,6 +1,6 @@
 ﻿namespace RoyalGames.Dtos.ConsoleDto
 {
-    public class LerJogoDto
+    public class LerConsoleDto
     {
     }
 }

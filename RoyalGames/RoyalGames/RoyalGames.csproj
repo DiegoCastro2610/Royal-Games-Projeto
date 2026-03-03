@@ -27,9 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Applications\Autenticacao\" />
     <Folder Include="Applications\Regras\" />
-    <Folder Include="Applications\Service\" />
   </ItemGroup>
 
 </Project>

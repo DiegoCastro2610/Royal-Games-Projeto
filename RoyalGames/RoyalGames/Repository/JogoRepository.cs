@@ -36,6 +36,16 @@ namespace RoyalGames.Repositories
             return Jogo;
         }
 
+        public byte[] ObterImagem(int id)
+        {
+            var jogo = _context.Jogos
+                .Where(jogo => jogo.JogoId == id)
+                .Select(jogo => jogo.Imagem)
+                .FirstOrDefault();
+
+            return jogo;
+        }
+
         public bool NomeExiste(string nome, int? jogoIdAtual = null)
         {
           
@@ -50,15 +60,7 @@ namespace RoyalGames.Repositories
             return jogoConsultado.Any(jogo => jogo.Nome == nome);
         }
 
-        public byte[] ObterImagem(int id)
-        {
-            var jogo = _context.Jogos
-                .Where(jogo => jogo.JogoId == id)
-                .Select(jogo => jogo.Imagem)
-                .FirstOrDefault();
-
-            return jogo;
-        }
+        
 
         public void Adicionar(Jogo jogo, List<int> generoIds)
         {
