@@ -8,7 +8,7 @@ namespace RoyalGames.Interfaces
 
         Usuario ObterPorEmail(string email);
         Usuario ObterPorId(int id);
-        bool EmailExiste(string email, int? usuarioIdAtual = null);
+        bool EmailExiste(string email);
         void Adicionar(Usuario usuario);
         void Atualizar(Usuario usuario);
         void Remover(int id);

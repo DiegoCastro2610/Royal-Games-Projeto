@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using RoyalGames.Models;
 
-namespace RoyalGames.Models;
+namespace RoyalGames.Contexts;
 
 public partial class RoyalGamesContext : DbContext
 {
