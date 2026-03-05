@@ -2,6 +2,6 @@
 {
     public class LerClassificacaoIndicativaDto
     {
-        public string Classificao { get; set; } = null!;
+        public string ClassificaoDto { get; set; } = null!;
     }
 }

@@ -96,6 +96,8 @@ namespace RoyalGames.Applications.Service
                 StatusUsuario = true
             };
 
+            _repository.Adicionar(usuario);
+
             return LerDto(usuario);
         }
 

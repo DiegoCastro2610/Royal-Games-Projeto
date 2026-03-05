@@ -2,6 +2,6 @@
 {
     public class CriarClassificacaoIndicativaDto
     {
-        public string Classificao { get; set; } = null!;
+        public string ClassificaoDto { get; set; } = null!;
     }
 }
