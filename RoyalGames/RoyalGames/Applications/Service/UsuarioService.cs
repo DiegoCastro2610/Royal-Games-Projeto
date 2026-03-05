@@ -118,5 +118,17 @@ namespace RoyalGames.Applications.Service
 
             return LerDto(usuarioDb);
         }
+
+        public void Remover(int id)
+        {
+            Usuario usuario = _repository.ObterPorId(id);
+
+            if(usuario == null)
+            {
+                throw new DomainException("Usuario não existe");
+            }
+
+            _repository.Remover(id);
+        }
     }
 }

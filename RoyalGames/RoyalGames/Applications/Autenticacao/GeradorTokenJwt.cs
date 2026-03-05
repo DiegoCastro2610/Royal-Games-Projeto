@@ -49,7 +49,7 @@ namespace RoyalGames.Applications.Autenticacao
             //Claims informaçoes do usuario que vao dentro do token e essas informacoes podem ser recuperadas na api para identificar quem esta logando
             var claims = new List<Claim>
             {
-                 new Claim(ClaimTypes.NameIdentifier, usuario.UsuarioID.ToString()), // Id do usuario para saber quem fez acao
+                 new Claim(ClaimTypes.NameIdentifier, usuario.UsuarioId.ToString()), // Id do usuario para saber quem fez acao
 
                  new Claim(ClaimTypes.Name, usuario.Nome), // Nome do usuario
 
@@ -69,4 +69,4 @@ namespace RoyalGames.Applications.Autenticacao
         }
     };
 }
-}
+

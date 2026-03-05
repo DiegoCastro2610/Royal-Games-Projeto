@@ -58,17 +58,8 @@ namespace RoyalGames.Applications.Service
                 throw new DomainException("Jogo não possui um genero");
             }
         }
-        public byte[] ObterImagem(int id)
-        {
-            byte[] imagem = _repository.ObterImagem(id);
-            if(imagem == null)
-            {
-                throw new DomainException("Não possui imagem");
-            }
-
-
-        }
+        
     }
 
 }
-}
+
