@@ -2,7 +2,7 @@
 {
     public class LerJogoDto
     {
-        public int ProdutoId { get; set; }
+        public int JogoID { get; set; }
 
         public string Nome { get; set; } = null!;
 
@@ -15,12 +15,16 @@
         //generos
         public List<string> Genero { get; set; } = new List<string>();
         
-        public List<string> GeneroId { get; set; } = new List<string>();
+        public List<int> GeneroId { get; set; } = new List<int>();
 
         public int? UsuarioId { get; set; }
 
         public string? UsuarioNome { get; set; }
 
         public string? UsuarioEmail { get; set; }
+
+        public int? ClassificacaoId { get; set; }
+
+        public List<string> Plataforma { get; set; } = new List<string>();
     }
 }

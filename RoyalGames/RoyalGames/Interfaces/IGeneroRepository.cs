@@ -12,8 +12,6 @@ namespace RoyalGames.Interfaces
 
         void Adicionar(Genero genero);
 
-        void Atualizar(Genero genero);
-
         void Remover(int id);
     }
 }

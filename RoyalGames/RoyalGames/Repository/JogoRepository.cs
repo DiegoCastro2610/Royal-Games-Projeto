@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RoyalGames.Contexts;
 using RoyalGames.Interfaces;
 using RoyalGames.Models;
 
@@ -36,6 +37,16 @@ namespace RoyalGames.Repositories
             return Jogo;
         }
 
+        public byte[] ObterImagem(int id)
+        {
+            var jogo = _context.Jogos
+                .Where(jogo => jogo.JogoId == id)
+                .Select(jogo => jogo.Imagem)
+                .FirstOrDefault();
+
+            return jogo;
+        }
+
         public bool NomeExiste(string nome, int? jogoIdAtual = null)
         {
           
@@ -50,15 +61,7 @@ namespace RoyalGames.Repositories
             return jogoConsultado.Any(jogo => jogo.Nome == nome);
         }
 
-        public byte[] ObterImagem(int id)
-        {
-            var jogo = _context.Jogos
-                .Where(jogo => jogo.JogoId == id)
-                .Select(jogo => jogo.Imagem)
-                .FirstOrDefault();
-
-            return jogo;
-        }
+        
 
         public void Adicionar(Jogo jogo, List<int> generoIds)
         {
@@ -97,13 +100,11 @@ namespace RoyalGames.Repositories
                 jogoBanco.StatusJogo = jogo.StatusJogo;
             }
 
-            // busca todas as categorias no banco com o id igual das categorias que vieram da requisição/front
+          
             var generos = _context.Generos
                 .Where(genero => generoIds.Contains(genero.GeneroId))
                 .ToList();
 
-            // Clear() -> Remove as ligações atuais entre o produto e as categorias
-            // ele não apaga a categoria do banco, só remove o vínculo com a tabela ProdutoCategoria
             jogoBanco.Generos.Clear();
 
             foreach (var genero in generos)
