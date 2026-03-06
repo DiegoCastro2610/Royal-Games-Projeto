@@ -92,9 +92,11 @@ namespace RoyalGames.Applications.Service
             {
                 Nome = usuarioDto.Nome,
                 Email = usuarioDto.Email,
-                Senha = usuarioDto.Senha,
+                Senha = HashSenha(usuarioDto.Senha),
                 StatusUsuario = true
             };
+
+            _repository.Adicionar(usuario);
 
             return LerDto(usuario);
         }
@@ -112,7 +114,7 @@ namespace RoyalGames.Applications.Service
 
             usuarioDb.Nome = usuarioDto.Nome;
             usuarioDb.Email = usuarioDto.Email;
-            usuarioDb.Senha = usuarioDto.Senha;
+            usuarioDb.Senha = HashSenha(usuarioDto.Senha);
 
             _repository.Atualizar(usuarioDb);
 

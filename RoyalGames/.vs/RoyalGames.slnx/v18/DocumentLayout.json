@@ -1,52 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto - Copia\\RoyalGames\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AB9EF8C1-1839-9C68-77C4-CE4DB5B29C43}|RoyalGames\\RoyalGames.csproj|c:\\users\\45255137804\\desktop\\royal-games-projeto - copia\\royalgames\\royalgames\\applications\\regras\\validardataexpiracaojogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB9EF8C1-1839-9C68-77C4-CE4DB5B29C43}|RoyalGames\\RoyalGames.csproj|solutionrelative:royalgames\\applications\\regras\\validardataexpiracaojogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB9EF8C1-1839-9C68-77C4-CE4DB5B29C43}|RoyalGames\\RoyalGames.csproj|c:\\users\\45255137804\\desktop\\royal-games-projeto - copia\\royalgames\\royalgames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB9EF8C1-1839-9C68-77C4-CE4DB5B29C43}|RoyalGames\\RoyalGames.csproj|solutionrelative:royalgames\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto\\RoyalGames\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValidarDataExpiracaoJogo.cs",
-              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto - Copia\\RoyalGames\\RoyalGames\\Applications\\Regras\\ValidarDataExpiracaoJogo.cs",
-              "RelativeDocumentMoniker": "RoyalGames\\Applications\\Regras\\ValidarDataExpiracaoJogo.cs",
-              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto - Copia\\RoyalGames\\RoyalGames\\Applications\\Regras\\ValidarDataExpiracaoJogo.cs",
-              "RelativeToolTip": "RoyalGames\\Applications\\Regras\\ValidarDataExpiracaoJogo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:38:43.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto - Copia\\RoyalGames\\RoyalGames\\Program.cs",
-              "RelativeDocumentMoniker": "RoyalGames\\Program.cs",
-              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto - Copia\\RoyalGames\\RoyalGames\\Program.cs",
-              "RelativeToolTip": "RoyalGames\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:31:14.228Z"
-            }
-          ]
-        },
         {
           "DockedWidth": 200,
           "SelectedChildIndex": -1,
