@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "RoyalGames\\Controllers\\LogJogoController.cs",
               "ToolTip": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto\\RoyalGames\\RoyalGames\\Controllers\\LogJogoController.cs",
               "RelativeToolTip": "RoyalGames\\Controllers\\LogJogoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T12:53:41.777Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "RoyalGames\\Domains\\LogAlteracaoJogo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:26:58.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T12:26:58.614Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "RoyalGames\\Dtos\\LogJogoDto\\LerLogJogoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:23:45.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T12:23:45.442Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "RoyalGames\\Applications\\Service\\LogAlteracaoJogoService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:13:00.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T12:13:00.262Z"
             }
           ]
         },
