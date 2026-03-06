@@ -7,7 +7,7 @@ namespace RoyalGames.Interfaces
         List<ClassificacaoIndicativa> Listar();
         ClassificacaoIndicativa ObterPorId(int id);
         void Adicionar(ClassificacaoIndicativa classificacao);
-        void Deletar(int id);
+        void Remover(int id);
 
     }
 }

@@ -29,7 +29,7 @@ namespace RoyalGames.Repository
             _context.SaveChanges();
         }
 
-        public void Deletar(int id)
+        public void Remover(int id)
         {
             ClassificacaoIndicativa? classificacao = _context.ClassificacaoIndicativas.FirstOrDefault(C => C.ClassificacaoIndicativaId == id);
 
