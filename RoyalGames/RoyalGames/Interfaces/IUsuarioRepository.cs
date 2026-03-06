@@ -6,8 +6,8 @@ namespace RoyalGames.Interfaces
     {
         List<Usuario> Listar();
 
-        Usuario ObterPorEmail(string email);
-        Usuario ObterPorId(int id);
+        Usuario? ObterPorEmail(string email);
+        Usuario? ObterPorId(int id);
         bool EmailExiste(string email);
         void Adicionar(Usuario usuario);
         void Atualizar(Usuario usuario);

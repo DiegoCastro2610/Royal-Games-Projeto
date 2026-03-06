@@ -18,26 +18,16 @@ namespace RoyalGames.Repository
         {
            return _context.Usuarios.ToList();
         }
-        public Usuario ObterPorEmail(string email)
+        public Usuario? ObterPorEmail(string email)
         {
-            Usuario? EmailUsuario = _context.Usuarios
-                .Include(U => U.UsuarioId)
-                .Include(U => U.Nome)
-                .Include(U => U.StatusUsuario)
-                .FirstOrDefault(U => U.Email == email);
+            return _context.Usuarios.FirstOrDefault(U => U.Email == email);
 
-            return EmailUsuario;
         }
 
-        public Usuario ObterPorId(int id)
+        public Usuario? ObterPorId(int id)
         {
-            Usuario? IdUsuario = _context.Usuarios
-                .Include(U => U.Nome)
-                .Include(U => U.Email)
-                .Include(U => U.StatusUsuario)
-                .FirstOrDefault(U => U.UsuarioId == id);
 
-            return IdUsuario;
+            return _context.Usuarios.Find(id);
         }
 
         public bool EmailExiste(string email)

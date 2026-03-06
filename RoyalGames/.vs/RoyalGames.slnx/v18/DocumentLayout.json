@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto\\RoyalGames\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9EF8C1-1839-9C68-77C4-CE4DB5B29C43}|RoyalGames\\RoyalGames.csproj|c:\\users\\45255137804\\desktop\\royal-games-projeto\\royalgames\\royalgames\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9EF8C1-1839-9C68-77C4-CE4DB5B29C43}|RoyalGames\\RoyalGames.csproj|solutionrelative:royalgames\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9EF8C1-1839-9C68-77C4-CE4DB5B29C43}|RoyalGames\\RoyalGames.csproj|c:\\users\\45255137804\\desktop\\royal-games-projeto\\royalgames\\royalgames\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9EF8C1-1839-9C68-77C4-CE4DB5B29C43}|RoyalGames\\RoyalGames.csproj|solutionrelative:royalgames\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto\\RoyalGames\\RoyalGames\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "RoyalGames\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto\\RoyalGames\\RoyalGames\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "RoyalGames\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T14:53:05.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto\\RoyalGames\\RoyalGames\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "RoyalGames\\Repository\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Royal-Games-Projeto\\RoyalGames\\RoyalGames\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "RoyalGames\\Repository\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T14:35:19.141Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -971,7 +971,6 @@
           },
           "senha": {
             "type": "string",
-            "format": "byte",
             "nullable": true
           }
         },

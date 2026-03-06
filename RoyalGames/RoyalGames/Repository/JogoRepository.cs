@@ -36,7 +36,7 @@ namespace RoyalGames.Repositories
 
             return Jogo;
         }
-
+        
         public byte[] ObterImagem(int id)
         {
             var jogo = _context.Jogos
