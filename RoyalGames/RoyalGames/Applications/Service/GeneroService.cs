@@ -14,6 +14,16 @@ namespace RoyalGames.Applications.Services
             _repository = repository;
         }
 
+        public LerGeneroDto converterParaDto(Genero genero)
+        {
+            LerGeneroDto generoDto = new LerGeneroDto
+            {
+                Nome = genero.Nome
+            };
+
+            return generoDto;
+        }
+
         public List<LerGeneroDto> Listar()
         {
             List<Genero> generos = _repository.Listar();
@@ -51,7 +61,7 @@ namespace RoyalGames.Applications.Services
             }
         }
 
-        public void Adicionar(CriarGeneroDto criarDto)
+        public LerGeneroDto Adicionar(CriarGeneroDto criarDto)
         {
             ValidarNome(criarDto.Nome);
 
@@ -66,6 +76,8 @@ namespace RoyalGames.Applications.Services
             };
 
             _repository.Adicionar(genero);
+
+            return converterParaDto(genero);
         }
 
 

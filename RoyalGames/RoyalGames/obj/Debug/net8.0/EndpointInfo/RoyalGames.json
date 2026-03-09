@@ -234,6 +234,35 @@
             }
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Genero"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Nome": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Nome": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Genero/{id}": {
@@ -364,9 +393,6 @@
                       "type": "integer",
                       "format": "int32"
                     }
-                  },
-                  "Genero": {
-                    "type": "string"
                   }
                 }
               },
@@ -384,9 +410,6 @@
                   "style": "form"
                 },
                 "GeneroIds": {
-                  "style": "form"
-                },
-                "Genero": {
                   "style": "form"
                 }
               }

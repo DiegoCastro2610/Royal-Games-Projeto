@@ -82,11 +82,11 @@ namespace RoyalGames.Applications.Service
 
             Jogo jogo = new Jogo
             {
+                UsuarioId = usuarioId,
                 Nome = jogoDto.Nome,
                 Preco = jogoDto.preco,
                 Descricao = jogoDto.Descricao,
-                Imagem = ImagemParaBytes.ConverterImagem(jogoDto.Imagem),
-                UsuarioId = usuarioId
+                Imagem = ImagemParaBytes.ConverterImagem(jogoDto.Imagem)
             };
 
             _repository.Adicionar(jogo, jogoDto.GeneroIds);

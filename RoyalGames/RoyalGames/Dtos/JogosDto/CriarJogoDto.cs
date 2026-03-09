@@ -8,6 +8,5 @@
         public IFormFile Imagem { get; set; } = null!;
         public List<int> GeneroIds { get; set; } = new List<int>();
 
-        public string Genero { get; set; } = null!;
     }
 }

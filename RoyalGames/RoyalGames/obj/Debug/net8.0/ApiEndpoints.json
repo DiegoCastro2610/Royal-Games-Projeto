@@ -135,6 +135,22 @@
   },
   {
     "ContainingType": "RoyalGames.Controllers.GeneroController",
+    "Method": "Adicionar",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RoyalGames.Controllers.GeneroController",
     "Method": "ObterPorId",
     "RelativePath": "api/Genero/{id}",
     "HttpMethod": "GET",
@@ -226,11 +242,6 @@
       {
         "Name": "GeneroIds",
         "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "Genero",
-        "Type": "System.String",
         "IsRequired": false
       }
     ],

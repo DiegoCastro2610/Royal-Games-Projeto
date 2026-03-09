@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RoyalGames.Applications.Services;
 using RoyalGames.Dtos.GeneroDto;
+using RoyalGames.Exceptions;
 
 namespace RoyalGames.Controllers
 {
@@ -33,6 +34,26 @@ namespace RoyalGames.Controllers
                 return NotFound();
             }
             return Ok(genero);
+        }
+
+        [HttpPost]
+
+        [Consumes("multipart/form-data")]
+        [Authorize]
+
+
+        public ActionResult Adicionar([FromForm] CriarGeneroDto GeneroDto)
+        {
+            try
+            {
+                _service.Adicionar(GeneroDto);
+
+                return StatusCode(201, GeneroDto);
+            }
+            catch (DomainException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpDelete("{id}")]
